@@ -84,6 +84,9 @@ body {
         grid-template-columns: 1fr;
         place-items: center;
     }
+    .heading{
+        height:10vh;
+    }
 }
 
 

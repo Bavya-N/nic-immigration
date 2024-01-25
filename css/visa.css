@@ -4,7 +4,6 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    /* overflow: hidden; */
     
   }
 
@@ -22,28 +21,16 @@ body {
 .abt-main{
     margin: 0px;
     background-color: black;
-    /* opacity:0.3; */
     height:20vh;
     margin-bottom: 20px;
 }
-
-/* .abt h2 {
-    padding-top:30px;
-    margin-top: 70px;
-    font-size: 50px;
-    color: #ba9b45;
-    text-align: center;
-} */
 .main-visa-container{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, auto));
     column-gap: 5px;
-
-    /* grid-template-columns: repeat(3,1fr); */
-    /* column-gap: 30px; */
     background-color: #d2c8b0;
     padding:20px;
-    /* margin-top:10px; */
+   
 }
 .main-visa-box1{
     margin-left: 20px;
@@ -79,6 +66,9 @@ body {
 .main-visa-box1 img{
     width:350px;
 }
+.heading{
+    height:10vh;
+}
 }
 @media screen and (min-width:480px)and (max-width:768px) {
     .main-visa-container{
@@ -86,17 +76,23 @@ body {
         grid-template-rows: repeat(auto-fit, minmax(250px, auto));
       gap: 1.5rem;
 }
-.main-visa-box1 img{
-    width:150px;
+.main-visa-container .main-visa-box1 img{
+    width:100px;
 }
 }
 @media screen and (min-width:320px)and (max-width:480px) {
+    .heading{
+        height:10vh;
+    }
+    .heading h1{
+        padding-bottom: 10px;
+    }
     .main-visa-container{
         display:grid;
         grid-template-rows: repeat(auto-fit, minmax(250px, auto));
       
 }
-.main-visa-box1 img{
-    width:50px;
+.main-visa-container .main-visa-box1 img{
+    width:310px;
 }
 }

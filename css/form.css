@@ -4,19 +4,13 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    /* overflow: hidden; */
-    
   }
 
 .openBtn{
     display: flex;
     justify-content: left;
 }
-/* .openButton{
-    border:none;
-    border-radius: 5px;
-    background-color: #1c87c9;
-} */
+
 .loginPopup{
     position:relative;
     text-align: center;
